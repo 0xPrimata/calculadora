@@ -71,16 +71,16 @@ export default function Home() {
           <option value="/">÷</option>
         </select>
         <div className="grid grid-row-3">
-          <input className="text-right bg-transparent" id="a" type="number" placeholder='quanto' onChange={(handleAChange)}></input>
-          <input className="text-right bg-transparent" id="b" type="number" placeholder='por quanto' onChange={(handleBChange)}></input>
-          <h1  id="result" type="number" placeholder='dá' className="border-t-2 pr-4 text-right">{state.result}</h1>
+          <input className="text-2xl text-right bg-transparent" id="a" type="number" placeholder='quanto' onChange={(handleAChange)}></input>
+          <input className="text-2xl text-right bg-transparent" id="b" type="number" placeholder='por quanto' onChange={(handleBChange)}></input>
+          <h1  id="result" type="number" placeholder='dá' className="text-2xl border-t-2 pr-4 text-right">{state.result}</h1>
         </div>
-        <button className="relative -right-16 bottom-5" onClick={()=>{handleClick()}}>✔️</button>
+        <button className="relative -right-20 bottom-6" onClick={()=>{handleClick()}}>✔️</button>
 
       </main>
 
       <footer className={styles.footer}>
-        <a>Um projeto @Primata</a>
+        <a target="_blank" href="https://github.com/SnowPrimate/calculadora">Um projeto @SnowPrimate</a>
       </footer>
     </div>
   )
