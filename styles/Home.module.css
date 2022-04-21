@@ -21,6 +21,8 @@
   border: 10px solid #924d3b;
   border-radius: 10px;
   background-image: url("/quadronegro.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .footer {
