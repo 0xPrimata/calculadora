@@ -64,7 +64,7 @@ export default function Home() {
       <h1 className={styles.title}>Aula de Matemática</h1>
       <main className={styles.main}>
 
-        <select id="method" onChange={handleMethodChange} className="relative -left-32 top-12 bg-transparent">
+        <select id="method" onChange={handleMethodChange} className="relative -left-48 top-28 bg-transparent">
           <option value="+">+</option>
           <option value="-">-</option>
           <option value="*">x</option>
