@@ -80,7 +80,7 @@ export default function Home() {
       </main>
 
       <footer className={styles.footer}>
-        <a target="_blank" href="https://github.com/SnowPrimate/calculadora">Um projeto @SnowPrimate</a>
+        <a target="_blank" rel="noreferrer" href="https://github.com/SnowPrimate/calculadora">Um projeto @SnowPrimate</a>
       </footer>
     </div>
   )
