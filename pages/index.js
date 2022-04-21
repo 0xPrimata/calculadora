@@ -71,9 +71,9 @@ export default function Home() {
           <option value="/">÷</option>
         </select>
         <div className="grid grid-row-3">
-          <input className="text-3xl text-right bg-transparent" id="a" type="number" placeholder='quanto' onChange={(handleAChange)}></input>
-          <input className="text-3xl text-right bg-transparent" id="b" type="number" placeholder='por quanto' onChange={(handleBChange)}></input>
-          <h1  id="result" type="number" placeholder='dá' className="text-3xl border-t-2 pr-4 text-right">{state.result}</h1>
+          <input className="text-5xl text-right bg-transparent" id="a" type="number" placeholder='quanto' onChange={(handleAChange)}></input>
+          <input className="text-5xl text-right bg-transparent" id="b" type="number" placeholder='por quanto' onChange={(handleBChange)}></input>
+          <h1  id="result" type="number" placeholder='dá' className="text-5xl border-t-2 pr-4 text-right">{state.result}</h1>
         </div>
         <button className="relative -right-36 bottom-6" onClick={()=>{handleClick()}}>✔️</button>
 
