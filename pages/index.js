@@ -64,18 +64,18 @@ export default function Home() {
       <h1 className={styles.title}>Aula de Matemática</h1>
       <main className={styles.main}>
 
-        <select id="method" onChange={handleMethodChange} className="relative -left-20 top-12 bg-transparent">
+        <select id="method" onChange={handleMethodChange} className="relative -left-32 top-12 bg-transparent">
           <option value="+">+</option>
           <option value="-">-</option>
           <option value="*">x</option>
           <option value="/">÷</option>
         </select>
         <div className="grid grid-row-3">
-          <input className="text-2xl text-right bg-transparent" id="a" type="number" placeholder='quanto' onChange={(handleAChange)}></input>
-          <input className="text-2xl text-right bg-transparent" id="b" type="number" placeholder='por quanto' onChange={(handleBChange)}></input>
-          <h1  id="result" type="number" placeholder='dá' className="text-2xl border-t-2 pr-4 text-right">{state.result}</h1>
+          <input className="text-3xl text-right bg-transparent" id="a" type="number" placeholder='quanto' onChange={(handleAChange)}></input>
+          <input className="text-3xl text-right bg-transparent" id="b" type="number" placeholder='por quanto' onChange={(handleBChange)}></input>
+          <h1  id="result" type="number" placeholder='dá' className="text-3xl border-t-2 pr-4 text-right">{state.result}</h1>
         </div>
-        <button className="relative -right-20 bottom-6" onClick={()=>{handleClick()}}>✔️</button>
+        <button className="relative -right-36 bottom-6" onClick={()=>{handleClick()}}>✔️</button>
 
       </main>
 
